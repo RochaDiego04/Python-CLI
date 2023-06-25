@@ -1,5 +1,24 @@
 # CLI-Python
 
+## Commands in the terminal
+
+To interact with the CLI application, you can use the following commands in the terminal:
+
+- `python cli.py`: This command displays a list of available commands that can be used in this CLI.
+
+- `python cli.py users`: Use this command to retrieve and display the list of users stored in the `.json` file.
+
+- `python cli.py new --name nameOfNewUser --lastname lastNameOfNewUser`: Use this command to create a new user. The `--name` parameter specifies the name of the new user, and the `--lastname` parameter specifies the last name. Both parameters are required for creating a new user.
+
+- `python cli.py user #id`: Use this command to view the data of a specific user. Replace `#id` with the unique identifier (id) of the user you want to see.
+
+- `python cli.py delete #id`: Use this command to delete a user from the storage file. Replace `#id` with the id of the user you want to remove.
+
+- `python cli.py update #id --name nameUpdatedForUser`: Use this command to update the name of a user with a specific id. Replace `#id` with the id of the user, and provide the `--name` parameter followed by the updated name.
+
+- `python cli.py update #id --lastname lastnameUpdatedForUser`: Use this command to update the last name of a user with a specific id. Replace `#id` with the id of the user, and provide the `--lastname` parameter followed by the updated last name.
+
+
 ## Developer Guide: Creating a Console Application
 
 This guide provides step-by-step instructions for setting up a console application using Python.

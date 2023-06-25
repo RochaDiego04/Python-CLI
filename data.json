@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Diego",
-        "lastname": "test"
+        "name": "Miguel",
+        "lastname": "Rocha"
     },
     {
         "id": 2,
@@ -12,11 +12,6 @@
     {
         "id": 3,
         "name": "Maria",
-        "lastname": "Guzman"
-    },
-    {
-        "id": 4,
-        "name": "jose",
-        "lastname": "perez"
+        "lastname": "Valenzuela"
     }
 ]
